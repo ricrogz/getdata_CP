@@ -44,6 +44,7 @@ run_analysis <- function() {
   # Task 3: user descriptive activity labels
   activity_labels[,2] <- gsub("_","",tolower(activity_labels[,2]))
   y[,1] <- activity_labels[y[,1],2]
+  y[,1] <- factor(y[,1])
   names(y) <- "activity"
   
   
@@ -70,7 +71,7 @@ run_analysis <- function() {
   # Task 5: create 2nd table with average data
   # for each subject and activity pair
   subjects   <- unique(data$subject)
-  activities <- unique(data$activity)
+  activities <- levels(data$activity)
   
   num_rows    <- length(subjects) * length(activities)
   num_columns <- ncol(data)

@@ -53,7 +53,7 @@ Now we are to clean the activity names in the "activity_labels.txt" file.
 
 After a visual inspection of the file, first we convert all the labels into lowercase, and then we remove underscore characters from all activity names.
 
-We also set "activity" as the column name for the activities.
+Then we convert the activity labels to a factor, and finally, we also set "activity" as the column name for the activities.
 
 
 #### Task 4:

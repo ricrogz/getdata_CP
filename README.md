@@ -8,7 +8,7 @@ This is the course project for the coursera.org course "Getting and Cleaning Dat
 
 * run_analysis.R: R code for the analytics. Usage described in next section.
 
-* CodeBook.md: Descrption for the run_analysis.R code.
+* CodeBook.md: Description for the run_analysis.R code.
 
 Please note that the project does *not* include the data on which run_analysis.R works on. 
 
