@@ -76,4 +76,4 @@ To calculate the averages we use a double for loop: the outer loop iterates over
 
 We subset the data for each subject and activity pair, putting it into a temporary storage ("tmp"), over which column averages are calculated. Then, the averages are stored in the "means" data.frame associated to the proper subject and activity.
 
-Finally, the "means" data.frame is written to a csv file.
+Finally, the "means" data.frame is written to a csv file named "tidy_data_means.csv".
